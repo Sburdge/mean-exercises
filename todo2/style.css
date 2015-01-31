@@ -1,0 +1,22 @@
+.toDoHeader {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 50px;
+  border-radius: 4px;
+
+}
+
+.toDoList {
+  box-sizing: border-box;
+  border-bottom: 1px solid blue;
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 4px;
+}
+
+.strikethrough {
+  color:#e7e7e7;
+  text-decoration: line-through;
+}

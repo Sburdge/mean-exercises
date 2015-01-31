@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <h1>ToDo List</h1>
+
+      <div data-ng-controller 'toDoCtrl' class="toDoApp">
+          <div class="toDoHeader">
+            <label>New ToDo:</label>
+            <input type="text">
+            <button data-ng-click='addToDo()'>Add</button>
+
+            <ul>
+              <li data-ng-repeat="todo in ToDos">
+                <p data-ng-class="{strikethough': todo.done}"><input type="checkbox" data-ng-model="todo.done">
+                  {{todo.text}}</p>
+            </ul>
+          </div>
+
+      </div>
+
+
+
+</html>

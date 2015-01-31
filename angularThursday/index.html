@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+	<title>ng Repeat</title>
+</head>
+<body ng-controller="test">
+	<ul>
+		<li ng-repeat="obj in array">{{obj.name}} {{obj.age}}
+		</li>
+	</ul>
+	<div ng-show="show"><p>ShowME</p></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

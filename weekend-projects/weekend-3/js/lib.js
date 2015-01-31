@@ -1,11 +1,11 @@
 /*************************************************************************
- * Copyright Coding Campus 2015
+ * Copyright Coding Campus 2015 // don't touch me, just call me
  *
  *************************************************************************
  *
  * @description
  * A small library of animation functions
- * 
+ *
  * @author
  * Derek Argueta
  *
